@@ -1,0 +1,142 @@
+* { padding:0;margin:0; }
+
+html, body {
+    height:100%;
+    width: 100%; 
+}
+
+body{
+    background:rgb(227,242,253);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 80%;
+
+}
+#Frame1{
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    }
+
+#FrameAbout{
+    display:block;
+    justify-content: space-between;
+    float:right;
+    width:50%;
+    margin-top: 80px;      
+    }
+
+#artbrain{  
+    display:block;
+    justify-content: space-between;
+    float:right;
+    width:50%;
+    margin-top: 80px;   
+    }
+    
+
+nav ul{list-style: none;
+    overflow: auto;     
+}
+  
+nav ul li {
+    float:right;
+    margin-right: 90px;
+    height:30px;
+    width: 100px;
+}
+
+nav ul li a{
+    color:rgb(15,27,116);
+    text-decoration: none;
+    font-size: 24px;
+    cursor:pointer;
+    
+}
+nav ul li a:hover{color:white}
+
+button {
+    border-style: none;
+    display:block;
+    background-color: transparent;
+    justify-content: space-between;
+    float:right;
+    width:50%;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.title{color:rgb(6, 11, 48)}
+
+h1 h2{
+    color: rgb(15,27,116);
+    text-align: left; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div article #arttext1{color:navy;
+margin-top:65px;}
+
+div article #arttext2{color:navy;
+margin-top: 15px;}
+
+
+
+div article p.blocktext{
+    display:block;
+    justify-content: space-between;
+    text-align: left;
+    color: rgb(15,27,116);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    width:50%;
+    margin-top: 50px;
+}
+
+div article p.blocktext2{
+    display:block;
+    justify-content: space-between;
+    text-align: left;
+    color: rgb(15,27,116);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    width:50%;
+    margin-top: 50px;
+}
+#mindset{
+    float: right;
+    width:1050px;
+    height:770px;
+    margin:1px;}
+
+video{display:block;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top: 80px}
+
+
+footer { height:50px;background:rgb(6, 11, 48);color:#FFF;text-align:center; 
+margin-top:10px;font-size: 20px;padding-top: 20px;}
+   
+footer p { padding:15px 0 0;}
+
+#wrapper { width:1000px;margin:0 auto;min-height:calc(100% - 50px); }
+
+
+@media(max-width: 320px) and (orientation: landscape) {
+    #Frame1{
+        justify-content: space-between;
+        text-align: center;
+        width: 60%;
+        }
+        nav ul li {
+            float:right;
+            margin-right: 90px;
+            height:15px;
+            width: 60px;
+}
